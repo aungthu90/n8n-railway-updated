@@ -1,3 +1,7 @@
-FROM n8nio/n8n:latest
-
-USER root
+{
+  "$schema": "https://railway.com/railway.schema.json",
+  "build": {
+    "builder": "DOCKERFILE",
+    "dockerfilePath": "Dockerfile"
+  }
+}
